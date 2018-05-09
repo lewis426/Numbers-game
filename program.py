@@ -38,7 +38,7 @@ while guess != number:
             print('Unlucky, {1}! The number is less than {0}.'.format(guess,name))
             guess = int(input('Guess a number between 0 and 100 '))
     else:
-        print('Sorry {1), {0} isn\'t between 0 and 100.'.format(guess,name))
+        print('Sorry {1}, {0} isn\'t between 0 and 100.'.format(guess,name))
         guess = int(input('Guess a number between 0 and 100 '))
 
 print('Congratulations, {1}! The number was {0}.'.format(guess,name))
